@@ -1,2 +1,35 @@
+# Environment
 .env
-node_modules
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+frontend/web-build/
+frontend/dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
